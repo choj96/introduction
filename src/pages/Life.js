@@ -5,7 +5,13 @@ const Life = () => {
   return (
     <section className="life scroll">
       <div className="inner">
-        <h2>Life</h2>
+        <h2
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
+          Life
+        </h2>
         <div className="contents">
           {/* 나의 대외활동, 취미, 회사 대표가 바라는 인재상 */}
           <ul className="life-list">

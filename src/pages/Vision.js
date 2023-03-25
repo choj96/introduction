@@ -5,26 +5,47 @@ const Vision = () => {
     <section className="vision scroll">
       <div className="inner">
         {/* 1년 목표, 3년후 목표, 5년후 목표 */}
-        <h2>Vision</h2>
+        <h2
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
+          Vision
+        </h2>
         <div className="contetns">
           <ul className="vision-list">
             <li>
-              1년후 : Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Libero eligendi ipsum debitis numquam. Beatae dolores maxime quae
-              delectus aspernatur voluptatibus, dolorem aut, facilis vel
-              accusamus dolor sunt quisquam, minima ipsa!
+              <div
+                className="vison-box"
+                data-aos="fade-down"
+                data-aos-easing="ease-in-out"
+                data-aos-deley="400"
+                data-aos-duration="1000"
+              >
+                <p>1년후:</p>
+              </div>
             </li>
             <li>
-              3년후 : Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Libero eligendi ipsum debitis numquam. Beatae dolores maxime quae
-              delectus aspernatur voluptatibus, dolorem aut, facilis vel
-              accusamus dolor sunt quisquam, minima ipsa!
+              <div
+                className="vison-box"
+                data-aos="fade-down"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="450"
+                data-aos-duration="1000"
+              >
+                <p>3년후:</p>
+              </div>
             </li>
             <li>
-              5년후 : Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Libero eligendi ipsum debitis numquam. Beatae dolores maxime quae
-              delectus aspernatur voluptatibus, dolorem aut, facilis vel
-              accusamus dolor sunt quisquam, minima ipsa!
+              <div
+                className="vison-box"
+                data-aos="fade-down"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+              >
+                <p>5년후:</p>
+              </div>
             </li>
           </ul>
         </div>

@@ -13,7 +13,7 @@ import Profile from "./pages/Profile";
 import Skills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
 import Vision from "./pages/Vision";
-import Life from "./pages/Life";
+// import Life from "./pages/Life";
 import Footer from "./components/Footer";
 import Gotop from "./components/Gotop";
 import MobileMenu from "./components/MobileMenu";
@@ -87,7 +87,7 @@ const App = () => {
         <Profile />
         <Skills />
         <Portfolio />
-        <Life />
+        {/* <Life /> */}
         <Vision />
       </div>
       <Footer />

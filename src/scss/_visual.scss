@@ -3,8 +3,24 @@
   min-height: 650px;
   .inner {
     height: 100%;
+    padding: 80px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    p {
+      font-size: 80px;
+      font-weight: 800;
+      color: $main-color;
+      margin-bottom: 30px;
+    }
+    span {
+      font-size: 25px;
+      font-weight: 300;
+      b {
+        font-size: 40px;
+        color: $main-color;
+      }
+    }
   }
 }

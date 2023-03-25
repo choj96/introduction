@@ -12,215 +12,71 @@ const Portfolio = () => {
     <section className="portfolio scroll">
       <div className="inner">
         {/* 개발담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 > 프론트)) */}
-        <h2 data-aos="fade-up">Portfolio</h2>
+        <h2
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
+          Portfolio
+        </h2>
         <div className="contents">
           {/* 팀프로젝트 */}
           <div className="portfolio-box">
-            <h3 data-aos="fade-up">Team Project</h3>
             <div className="portfolio-team">
-              <div className="portfolio-left">
-                <a
-                  href="https://choj96.github.io/Hansalim/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="project" />
-                </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+              <h3 data-aos="fade-up">Team Project</h3>
+              <div className="team-project">
+                <div className="">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/cB7KyN1VgGs"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div>내용</div>
               </div>
-              <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>
-                    프로젝트 Git :
-                    <a
-                      href="https://choj96.github.io/Hansalim/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      alt="portfolio"
-                    >
-                      작업물보기
-                    </a>
-                  </li>
-                  <li>프로젝트 노션 : </li>
-                </ul>
+              <div className="team-project">
+                <div>내용</div>
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/m_6p2v6Gdzs"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div className="team-project">
+                <div>이미지</div>
+                <div>내용</div>
               </div>
             </div>
-            <div className="portfolio-team">
-              <div className="portfolio-left">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="project" />
-                </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
-              </div>
-              <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
-                </ul>
-              </div>
-            </div>
-            <div className="portfolio-team">
-              <div className="portfolio-left">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="project" />
-                </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
-              </div>
-              <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
-                </ul>
-              </div>
-            </div>
-            <div className="portfolio-team">
-              <div className="portfolio-left">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="project" />
-                </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
-              </div>
-              <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
-                </ul>
-              </div>
+            <div className="portfolio-study">
+              <h3 data-aos="fade-up">Study</h3>
+              <Swiper
+                loop={true}
+                slidesPerView={1}
+                spaceBetween={0}
+                pagination={true}
+                navigation={true}
+                modules={[Navigation, Pagination]}
+                className="mySwiper"
+              >
+                <SwiperSlide>SXT 건설</SwiperSlide>
+                <SwiperSlide>빙그레</SwiperSlide>
+                <SwiperSlide>한살림</SwiperSlide>
+                <SwiperSlide>도시락통</SwiperSlide>
+                <SwiperSlide>원더플레이스</SwiperSlide>
+              </Swiper>
             </div>
           </div>
           {/* 개인 스터디 프로젝트 */}
-          <div className="portfolio-box">
-            <h3>Study Project</h3>
-            {/* Swiper 배치 */}
-            <Swiper
-              loop={true}
-              slidesPerView={1}
-              spaceBetween={0}
-              pagination={true}
-              navigation={true}
-              breakpoints={{
-                860: {
-                  slidesPerView: 1,
-                  spaceBetween: 0,
-                },
-                960: {
-                  slidesPerView: 2,
-                  spaceBetween: 30,
-                },
-                1180: {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
-                },
-              }}
-              modules={[Pagination, Navigation]}
-              className="portfolio-slide"
-            >
-              <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="portfolio" />
-                </a>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="portfolio" />
-                </a>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="portfolio" />
-                </a>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="portfolio" />
-                </a>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="portfolio" />
-                </a>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/sample.png" alt="portfolio" />
-                </a>
-              </SwiperSlide>
-            </Swiper>
-          </div>
         </div>
       </div>
     </section>
