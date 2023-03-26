@@ -10,7 +10,7 @@ const Vision = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
         >
-          Vision
+          VISION
         </h2>
         <div className="contetns">
           <ul className="vision-list">

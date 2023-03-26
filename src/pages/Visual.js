@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Anime from "../assets/Anime";
+import TypeIt from "typeit-react";
 
 const Visual = () => {
   const path = process.env.PUBLIC_URL;

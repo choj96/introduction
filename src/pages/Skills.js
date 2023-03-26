@@ -122,7 +122,7 @@ const Skills = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
         >
-          Skills
+          SKILLS
         </h2>
         <div className="contents">
           <ul className="skills-list">

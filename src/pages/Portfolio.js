@@ -17,7 +17,7 @@ const Portfolio = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
         >
-          Portfolio
+          PORTFOLIO
         </h2>
         <div className="contents">
           {/* 팀프로젝트 */}
@@ -68,11 +68,21 @@ const Portfolio = () => {
                 modules={[Navigation, Pagination]}
                 className="mySwiper"
               >
-                <SwiperSlide>SXT 건설</SwiperSlide>
-                <SwiperSlide>빙그레</SwiperSlide>
-                <SwiperSlide>한살림</SwiperSlide>
-                <SwiperSlide>도시락통</SwiperSlide>
-                <SwiperSlide>원더플레이스</SwiperSlide>
+                <SwiperSlide>
+                  <div className="sw-inner">STX 건설</div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sw-inner">빙그레</div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sw-inner">한살림</div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sw-inner">도시락통</div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sw-inner">원더플레이스</div>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
