@@ -6,19 +6,39 @@
       font-size: 50px;
     }
     .contents {
-      .skills-list {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        li {
-          position: relative;
-          width: 25%;
+      .mySwiper {
+        .swiper-slide {
           text-align: center;
-          margin-bottom: 20px;
-          img {
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 250px;
+          .sw-inner {
             position: relative;
-            top: -115px;
-            width: 55%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px 1px #b3b7b6;
+            border-radius: 10%;
+            img {
+              position: relative;
+              width: 150px;
+              height: 150px;
+            }
+          }
+        }
+        .swiper-button-prev,
+        .swiper-button-next {
+          color: $main-color;
+        }
+        .swiper-pagination {
+          .swiper-pagination-bullet {
+            background-color: $main-color;
           }
         }
       }

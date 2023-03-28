@@ -8,9 +8,12 @@ const Visual = () => {
     <div className="visual scroll">
       <div className="inner">
         <p>Hello World!</p>
-        <span>
-          프론트엔드 신입개발자 <b>조준영</b> 입니다.
-        </span>
+        <TypeIt
+          getBeforeInit={(instance) => {
+            instance.type("프론트엔드 개발자 조준영입니다.");
+            return instance;
+          }}
+        />
       </div>
     </div>
   );

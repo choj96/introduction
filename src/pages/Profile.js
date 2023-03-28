@@ -18,10 +18,10 @@ const Profile = () => {
           <div className="profile-left">
             <div className="img-box"></div>
 
-            <span>이름 : 조준영</span>
-            <span>생년월일 : 1996.03.10</span>
+            <span>이름 : 조준영 (아이콘 넣고 폰트업)</span>
+            <span>생년월일 : 1996.03.10(아이콘 넣고 폰트업)</span>
 
-            <span>반복이 무기다.</span>
+            <span>이해는 오는거다.폰트굵게</span>
           </div>
           <div className="profile-right">
             <h3>Intro</h3>
@@ -33,8 +33,14 @@ const Profile = () => {
             <br />
             <span>적어도 이정도는 채워야 하지 않을까싶다. 더 써야하나?</span>
             <h3>Experience</h3>
+            <span>경험한 이력에 대해 적어야한다</span>
+            <br />
+            <span>내가 경험해온 일들을 하나씩 적어 보자</span>
+            <br />
+            <span>슬슬 채워보자 가나다라마바사아자차카타파하</span>
 
             <h3>License</h3>
+            <span>1종보통운전면허</span>
           </div>
         </div>
       </div>

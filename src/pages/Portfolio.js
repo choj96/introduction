@@ -24,8 +24,14 @@ const Portfolio = () => {
           <div className="portfolio-box">
             <div className="portfolio-team">
               <h3 data-aos="fade-up">Team Project</h3>
-              <div className="team-project">
-                <div className="">
+              <div
+                className="team-project"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-deley="400"
+                data-aos-duration="1000"
+              >
+                <div className="team-box">
                   <iframe
                     width="560"
                     height="315"
@@ -36,11 +42,33 @@ const Portfolio = () => {
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div>내용</div>
+                <div className="team-text">
+                  <h4>배달대</h4>
+                  <p>
+                    <b>제작기간</b> 23.01.09 ~ 23.02.05
+                  </p>
+                  <p>
+                    <b>참여인원</b> 3명
+                  </p>
+                  <p>
+                    <b>사용기술</b> React, Redux
+                  </p>
+                  <p>
+                    <b>프로젝트 내용</b>
+                  </p>
+                  <p>
+                    <b>깃허브 방문</b> (아이콘)
+                  </p>
+                </div>
               </div>
-              <div className="team-project">
-                <div>내용</div>
-                <div>
+              <div
+                className="team-project"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-deley="500"
+                data-aos-duration="1000"
+              >
+                <div className="team-box">
                   <iframe
                     width="560"
                     height="315"
@@ -51,10 +79,24 @@ const Portfolio = () => {
                     allowfullscreen
                   ></iframe>
                 </div>
-              </div>
-              <div className="team-project">
-                <div>이미지</div>
-                <div>내용</div>
+                <div className="team-text">
+                  <h4>나의 텅장</h4>
+                  <p>
+                    <b>제작기간</b> 23.01.09 ~ 23.02.05
+                  </p>
+                  <p>
+                    <b>참여인원</b> 3명
+                  </p>
+                  <p>
+                    <b>사용기술</b> React, Redux
+                  </p>
+                  <p>
+                    <b>프로젝트 내용</b>
+                  </p>
+                  <p>
+                    <b>깃허브 방문</b> (아이콘)
+                  </p>
+                </div>
               </div>
             </div>
             <div className="portfolio-study">
@@ -69,19 +111,33 @@ const Portfolio = () => {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <div className="sw-inner">STX 건설</div>
+                  <div className="sw-inner">
+                    <img src={`${path}/images/도시락통.png`} alt="skills" />
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="sw-inner">빙그레</div>
+                  <div className="sw-inner">
+                    {" "}
+                    <img src={`${path}/images/도시락통.png`} alt="skills" />
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="sw-inner">한살림</div>
+                  <div className="sw-inner">
+                    {" "}
+                    <img src={`${path}/images/도시락통.png`} alt="skills" />
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="sw-inner">도시락통</div>
+                  <div className="sw-inner">
+                    {" "}
+                    <img src={`${path}/images/도시락통.png`} alt="skills" />
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="sw-inner">원더플레이스</div>
+                  <div className="sw-inner">
+                    {" "}
+                    <img src={`${path}/images/도시락통.png`} alt="skills" />
+                  </div>
                 </SwiperSlide>
               </Swiper>
             </div>
