@@ -31,6 +31,7 @@ const Skills = () => {
             spaceBetween={0}
             pagination={true}
             navigation={true}
+            speed={900}
             modules={[Navigation, Pagination]}
             className="mySwiper"
           >

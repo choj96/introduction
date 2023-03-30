@@ -27,7 +27,7 @@ const Portfolio = () => {
               <div
                 className="team-project"
                 data-aos="fade-up"
-                data-aos-easing="ease-in-out"
+                data-aos-easing="ease-in-cubic"
                 data-aos-deley="400"
                 data-aos-duration="1000"
               >
@@ -113,6 +113,7 @@ const Portfolio = () => {
                   spaceBetween={0}
                   pagination={true}
                   navigation={true}
+                  speed={900}
                   modules={[Navigation, Pagination]}
                   className="mySwiper"
                 >
