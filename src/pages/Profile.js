@@ -14,7 +14,12 @@ const Profile = () => {
           ABOUT ME
         </h2>
 
-        <div className="contents" data-aos="fade-up">
+        <div
+          className="contents"
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <div className="profile-left">
             <div className="img-box"></div>
 
