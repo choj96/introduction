@@ -4,10 +4,12 @@
       color: $main-color;
       text-align: center;
       font-size: 50px;
+      font-weight: 700;
     }
     .contents {
       .mySwiper {
         .swiper-slide {
+          position: relative;
           text-align: center;
           font-size: 18px;
           background: #fff;
@@ -29,6 +31,26 @@
               position: relative;
               width: 150px;
               height: 150px;
+            }
+          }
+          .sw-inner-hover {
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            padding: 30px;
+            border-radius: 10%;
+            opacity: 0;
+            transition: opacity 0.5s;
+            box-shadow: 0px 0px 10px 1px #b3b7b6;
+            &:hover {
+              opacity: 1;
+              background-color: rgba(0, 0, 0, 0.7);
+            }
+            span {
+              color: #fff;
             }
           }
         }

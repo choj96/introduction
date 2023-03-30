@@ -101,45 +101,52 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-study">
               <h3 data-aos="fade-up">Study</h3>
-              <Swiper
-                loop={true}
-                slidesPerView={1}
-                spaceBetween={0}
-                pagination={true}
-                navigation={true}
-                modules={[Navigation, Pagination]}
-                className="mySwiper"
+              <div
+                className="content-study"
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
               >
-                <SwiperSlide>
-                  <div className="sw-inner">
-                    <img src={`${path}/images/도시락통.png`} alt="skills" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="sw-inner">
-                    {" "}
-                    <img src={`${path}/images/도시락통.png`} alt="skills" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="sw-inner">
-                    {" "}
-                    <img src={`${path}/images/도시락통.png`} alt="skills" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="sw-inner">
-                    {" "}
-                    <img src={`${path}/images/도시락통.png`} alt="skills" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="sw-inner">
-                    {" "}
-                    <img src={`${path}/images/도시락통.png`} alt="skills" />
-                  </div>
-                </SwiperSlide>
-              </Swiper>
+                <Swiper
+                  loop={true}
+                  slidesPerView={1}
+                  spaceBetween={0}
+                  pagination={true}
+                  navigation={true}
+                  modules={[Navigation, Pagination]}
+                  className="mySwiper"
+                >
+                  <SwiperSlide>
+                    <div className="sw-inner">
+                      <img src={`${path}/images/도시락통.png`} alt="skills" />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="sw-inner">
+                      {" "}
+                      <img src={`${path}/images/도시락통.png`} alt="skills" />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="sw-inner">
+                      {" "}
+                      <img src={`${path}/images/도시락통.png`} alt="skills" />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="sw-inner">
+                      {" "}
+                      <img src={`${path}/images/도시락통.png`} alt="skills" />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="sw-inner">
+                      {" "}
+                      <img src={`${path}/images/도시락통.png`} alt="skills" />
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
+              </div>
             </div>
           </div>
           {/* 개인 스터디 프로젝트 */}

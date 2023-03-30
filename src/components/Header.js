@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Header = ({ setPage, setOpen, open }) => {
+  const path = process.env.PUBLIC_URL;
   return (
     <header className="header">
       <div className="inner">
         <nav className="nav">
           <span className="header-logo" onClick={() => setPage(0)}>
-            My Profile
+            <img src={`${path}/images/logo.png`} alt="logo" />
           </span>
           <ul className="gnb">
             <li onClick={() => setPage(0)}>
@@ -23,9 +24,6 @@ const Header = ({ setPage, setOpen, open }) => {
             <li onClick={() => setPage(3)}>
               <span>Portfolio</span>
             </li>
-            {/* <li onClick={() => setPage(4)}>
-              <span>Life</span>
-            </li> */}
             <li onClick={() => setPage(4)}>
               <span>Vision</span>
             </li>
